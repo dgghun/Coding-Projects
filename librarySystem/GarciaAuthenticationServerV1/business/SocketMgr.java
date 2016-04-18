@@ -11,8 +11,8 @@ import common.domain.Login;
 public class SocketMgr implements Runnable {
 
     private Socket clientSocket;
-    private final String NAME = "REGIS#2015";
-    private final String PASSWORD = "pass#2015";
+    private final String NAME = "xxxx";
+    private final String PASSWORD = "xxxx";
     private boolean authenticated;
     private ObjectOutputStream out;
     private ObjectInputStream in;
