@@ -12,7 +12,7 @@ import library.domain.*;
  */
 public class BookSvcJDBCImpl implements IBookSvc {
 
-    private String connString = "jdbc:mysql://localhost/garcialibrary?user=root&password=admin";
+    private String connString = "jdbc:mysql://localhost/xxxx?user=root&password=xxxx";
     public Connection conn;
     public Statement stmt;
     
